@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*=======top=========*/
+.top{
+    position: relative;
+    display: flex;
+    top: 100px;
+    height: 50vh;
+    background: rgb(231, 202, 247);
+    background-attachment: fixed;
+   
+
+}
+.top h1{
+    font-size: 40px;
+    
+    padding: 8px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px black;
+}
+.top p{
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-shadow: 2px 3px 5px black;
+    font-family: serif;
+}
+.top button{
+    position: relative;
+    top: 20px;
+    left: 75px;
+    height: 70px;
+    font-size: 30px;
+    width: 35%;
+    border-radius: 8px;
+    font-weight: 800;
+    color: white;
+    background: rgb(241, 241, 162);
+    padding: 8px;
+    text-shadow: 2px 3px 5px black;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+}
+.top button:hover{
+    font-size: 32px;
+    
+}
+.top img{
+    position: relative;
+    top: 25px;
+    left: 75px;
+}
+  /*========main card1================*/
+  .card{
+    display: flex;
+    position: relative;
+    top: 125px;
+  }
+  .card .card-container{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+    box-shadow: 1px 2px 2px black;
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+   
+  }
+  .card .card-container .bi{
+    font-size: 75px;
+    color: rgb(238, 236, 153);
+    text-shadow: 2px 3px 5px black;
+  }
+  .card .card-container h2{
+    color: rgb(238, 236, 153);
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 3px 5px black;
+  }
+  .card .card-container ul li{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(238, 236, 153);
+    text-shadow: 2px 3px 5px black;
+    cursor: pointer;
+  }
+  .card .card-container ul li:hover{
+    font-size: 22px;
+  }
+  .card .card-container button{
+    padding: 8px;
+    height: 45px;
+    width: 45%;
+    color: black;
+    font-weight: 1000;
+    background: rgb(238, 236, 153);
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    display: inline;
+    top: 35px;
+    margin-right: 10px;
+  }
+  .card .card-container button:hover{
+    font-size:15px;
+   
+  }
+
+   /*========main card2================*/
+   .card2{
+    position: relative;
+    top: 350px;
+    display: flex;
+   }
+   .card2 .card-container{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    box-shadow: 1px 2px 2px black;
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 140px;
+   }
+   .card2 .card-container .bi{
+    font-size: 75px;
+    color: rgb(238, 236, 153);
+    text-shadow: 2px 3px 5px black;
+  }
+  .card2 .card-container h2{
+    color: rgb(238, 236, 153);
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 3px 5px black;
+  }
+  .card2 .card-container ul li{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(238, 236, 153);
+    text-shadow: 2px 3px 5px black;
+    cursor: pointer;
+  }
+  .card2 .card-container ul li:hover{
+    font-size: 22px;
+  }
+  .card2 .card-container button{
+    padding: 8px;
+    height: 45px;
+    width: 45%;
+    color: black;
+    font-weight: 1000;
+    background: rgb(238, 236, 153);
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    display: inline;
+    top: 35px;
+    margin-right: 10px;
+  }
+  .card2 .card-container button:hover{
+    font-size:15px;
+   
+  }
+    /*========bottom================*/
+  .bottom{ 
+position: relative;
+display: flex;
+top: 450px;
+background-color: #1dd1a1;
+background-image: linear-gradient(315deg, #1dd1a1 0%, #d3d3d3 74%);
+box-shadow: 0 0 8px black;
+   }
+   .bottom img{
+    position: relative;
+    left: 250px;
+    top: 25px;
+    padding: 25px;
+    margin-right: 50px;
+    
+   }
+   .bottom .bottom_container{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 250px;
+    text-shadow: 2px 3px 5px black;
+    line-height: 2;
+    font-weight: 800;
+   }
+   .bottom .bottom_container h1{
+    margin-top: 25px;
+    font-size: 40px;
+   }
+   .bottom .bottom_container h3{
+    font-size:30px;
+   }
+   .bottom .bottom_container p{
+    font-size: 20px;
+   }
+   .bottom .bottom_container button{
+    height: 60px;
+    padding: 8px;
+    
+    width:38%;
+    background: black ;
+     margin-right:30px;
+    display: inline;
+    text-align: left;
+    border-radius: 10px;
+    left: 50px;
+    top: 10px;
+    position: relative;
+    padding-left: 10px;
+
+   }
+   .bottom .bottom_container button i{
+    color: white;
+    margin-right:10px ;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+   }
+   .bottom .bottom_container button p{
+    font-family: serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    left: 35px;
+   }
